@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>任务三</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .clearfix:before, 
+        .clearfix:after {
+            content: "";
+            display: table;
+        }
+
+        .clearfix:after {
+            clear: both;
+        }
+
+        .clearfix {
+            *zoom: 1; /*IE/7/6*/
+        }
+
+        body>div{
+            margin: 20px;
+            padding: 20px;
+            background: #eee;
+            border: #999;
+        }
+        img{
+         width: 80px;
+         height: 80px;   
+         vertical-align: middle;
+        }
+        article{
+            border: 1px solid #999;
+            background: #fff;
+        }
+        ul{
+             
+            list-style: none;
+            text-align: center;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        .left{
+            float: left;
+            width: 160px;
+            padding: 20px;
+            position: relative
+        }
+        .left h2{
+            position: absolute;
+            right: 10px;
+        }
+        .right{
+            float: right;
+            width: 120px;
+        }
+        .center{
+            margin-left: 220px;
+            margin-right: 140px;
+        }
+    </style>
+</head>
+<body>
+    <div class="clearfix">
+        <article class="left">
+            <h2>lychiyu</h2>
+            <img src="./images/logo.png" alt="lychiyu">
+        </article>
+        <article class="right">
+            <ul>
+                <li><img src="./images/logo.png" alt=""></li>
+                <li><img src="./images/logo.png" alt=""></li>
+                <li><img src="./images/logo.png" alt=""></li>
+                <li><img src="./images/logo.png" alt=""></li>
+            </ul>
+        </article>
+        <article class="center clearfix">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis rem accusamus minus eos quis aut ratione pariatur quam quidem atque ut repellat reiciendis, nobis, asperiores, in? Nostrum, tenetur quasi qui minima libero molestias blanditiis, beatae, ullam excepturi natus molestiae rem, veritatis! Animi porro repellat reiciendis ea sed pariatur nobis recusandae maiores similique, cupiditate harum illo culpa alias inventore unde laudantium facere, eveniet veniam! Eius ex iusto inventore provident molestias minus eos accusamus neque consequatur alias vel, cum possimus recusandae culpa doloremque natus est maiores beatae reiciendis ipsa, ut quisquam fugiat modi. Dolorum dolorem reprehenderit beatae earum odit doloremque ad possimus quis, quam illum aliquid, accusamus, exercitationem fugit excepturi. Deserunt, nostrum corporis, cumque quo assumenda veniam delectus sequi in. Ullam cumque mollitia sit, aliquam fugiat nesciunt sapiente error excepturi facilis doloremque recusandae perspiciatis labore. Soluta eveniet reiciendis nemo temporibus ducimus optio commodi repellat natus fuga, eaque molestias amet a aut reprehenderit dicta velit. Dignissimos quisquam sed eius nesciunt nihil recusandae non velit minus voluptate quia, perferendis amet dolores assumenda, modi maiores mollitia expedita repellat quam, harum? Consequuntur assumenda, vel ratione eveniet consectetur iure eum voluptate pariatur quis ipsum rerum, aliquid provident sapiente accusantium commodi quo eligendi quidem. Quidem porro cumque, mollitia.
+        </article>
+    </div>
+</body>
+</html>
