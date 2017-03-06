@@ -1,0 +1,217 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+ul,ol{
+    list-style: none;
+}
+.clearfix:before, 
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+.fl{
+    float: left
+}
+.fr{
+    float: right
+}
+
+body{
+    background: #dedede;
+}
+
+.header{
+    width: 100%;
+    background: #333;
+    height: 60px;
+}
+.header .navbar{
+    background: #333;
+    height: 60px;
+    margin: 0 20px;
+}
+.header .navbar a>img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.header .navbar .nav li{
+    line-height: 60px;
+    margin-right: 20px;
+    font-size: 14px;
+    float: left
+}
+.header .navbar .nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header .navbar .nav li:last-child a{
+    color: #dedede;
+}
+
+main,aside{
+    padding: 0 20px;
+}
+main section{
+    background: #fff;
+    margin-top: 30px;
+    border: 1px solid #dedede;
+    box-shadow: 2px 2px #848484;
+    padding: 30px 20px;
+}
+main section .article-info h2{
+    font-style: normal;
+    font-size: 18px;
+}
+main section .article-info h3{
+    padding: 20px 0 10px;
+    font-style: normal;
+    font-size: 15px;
+    color: #787677;
+}
+main section .article-info p{
+    font-style: normal;
+    font-size: 12px;
+    color: #566568;
+}
+main section .article-desc{
+    padding-top: 10px;
+}
+main section .article-desc p{
+    text-indent: 2em;
+    line-height: 30px;
+}
+main section .article-desc img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #dedede;
+    margin-top: 10px;
+}
+main section .article-desc ol{
+    padding-left: 20px;   
+}
+main section .img-content{
+    padding: 30px 0 0 50px;
+} 
+main section .img-content>div{
+    width: 100px;
+    border: 1px solid #dedede;
+    margin-bottom: 20px;
+}
+main section .img-content div h5{
+    padding-top: 10px;
+    text-align: center;
+}
+
+main section .img-content div img{
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+
+main section .table-content ol{
+    list-style:decimal;
+    padding-left: 40px;
+    font-weight: 600;
+}
+
+main section .table-content p{
+    text-indent: 0em;
+}
+
+main section .table-content table{
+    width: 100%;
+    border: none;
+    
+}
+
+main section .table-content table td{
+    padding: 4px 0;
+    border: 1px solid #dedede;
+    border-top: none;
+}
+
+main section .table-content table th{
+    background: #333;
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    padding: 4px 0;
+}
+main section .table-content table tr:last-child td{
+    background: #ccc;
+    border: none;
+}
+
+
+.aside-content{
+    background: #fff;
+    margin-top: 30px;
+    border: 1px solid #dedede;
+    box-shadow: 2px 2px #848484;
+    padding: 30px 20px;
+}
+
+.aside-content h3{
+    line-height: 42px;
+    font-size: 18px;
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+}
+.aside-content form{
+    padding-top: 20px;
+}
+.aside-content form p{
+    margin-bottom: 12px;
+}
+
+.aside-content .submit {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(51, 85, 208);
+}
+.aside-content .text {
+    padding-left: 128px;
+    color: rgb(166, 167, 195);
+}
+.aside-content .detail {
+    padding-left: 80px;
+}
+.aside-content .message {
+    position: relative;
+}
+.aside-content .pro-describe {
+    position: absolute;
+    left: 48px;
+    top: 0;
+}
+.aside-content #detail {
+    margin-left: 130px;
+}
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+}
