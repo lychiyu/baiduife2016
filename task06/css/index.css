@@ -291,10 +291,116 @@ a{
 }
 
 .technologe aside .aside-list{
-    width: 439px;
+    width: 459px;
     height: 298px;
     margin-top:30px;  
     padding-top:30px;  
-    padding-left: 20px;
     background: #eeedd6;
+}
+.technologe aside .aside-list ul{
+    padding-left: 20px;
+}
+
+.technologe aside .aside-list ul li{
+    font-size: 16px;
+    text-align: left;
+    font-family: 宋体;
+    color: #5a5b5b;
+    padding: 10px 0;
+}
+.technologe aside .aside-list ul li::before{
+    content: "▲";
+    color: #10456b;
+    margin-right: 10px;
+}
+.technologe aside .aside-list ul li span{
+    font-size: 12px;
+    text-align: right;
+    font-style: italic;    
+}
+
+.technologe .one-world{
+    padding-top: 20px;
+}
+.technologe .one-world .one{
+    width: 260px;
+    height: 160px;
+    background: #d45d5c;
+    color: #ffffff;
+    position: relative;
+}
+.technologe .one-world .one>p{
+    position: absolute;
+}
+.technologe .one-world .one>p:nth-of-type(1){
+    font-size: 110px;
+    font-family: 微软雅黑;
+    height: 86px;
+    top: 40px;
+    left:10px;
+    line-height: 86px;
+    border-right: 2px solid #ffffff;
+}
+.technologe .one-world .one>p:nth-of-type(2){
+    font-size: 26px;
+    font-family: 黑体;
+    font-style: italic;
+    line-height: 24px;
+    top: 48px;
+    left: 80px;
+    width: 170px;
+}
+.technologe .one-world .one>span{
+    position: absolute;
+    font-size: 12px;
+    font-family: 黑体;
+    
+    top: 94px;
+    left: 80px;
+    padding:6px 20px 0 6px;
+}
+.technologe .one-world .world{
+    width: 164px;
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family: 黑体;
+    line-height: 16px;
+    font-style: italic;
+    padding-top: 30px;
+}
+.technologe .one-world .world >p{
+    text-indent: 2em;
+    position: relative;
+}
+.technologe .one-world .world>p::before,
+.technologe .one-world .world>p::after{
+    color: #d45d5c;
+    font-size: 72px;
+    font-style: normal;
+    position: absolute;
+}
+.technologe .one-world .world>p::before{
+    content: "“";
+    top: 13px;
+    left: -70px;
+}
+.technologe .one-world .world>p::after{
+    content: "”";
+    bottom: -30px;
+    right: -32px;
+}
+
+footer{
+    width: 892px;
+    border-top: 1px solid #938e8c;
+    margin-top: 40px;
+    position: relative;
+    height: 60px;
+}
+footer>p{
+    position: absolute;
+    font-size: 12px;
+    font-family: 黑体;
+    color: #cc7680;
+    right: 0;
 }
