@@ -1,0 +1,208 @@
+/*初始化样式*/
+body{
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+}
+.wrap{
+    width: 1280px;
+    margin: 0 auto;
+}
+i,s{
+    font-style: normal;
+    text-decoration: none;
+}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+    outline: none;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+a{
+    color: #999ba0;
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+
+/* 头部样式*/
+.header{
+    height: 57px;
+    width: 1168px;
+    padding: 0 56px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    width: 112px;
+    line-height:57px;
+}
+.logo img{
+    vertical-align: top;
+   padding-top: 12px;
+    margin-right: 10px;
+}
+.logo a{
+    color: #393a3a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header nav{
+    float: right;
+    height: 52px;
+    /*padding-bottom: 5px;*/
+}
+.header nav li a{
+    text-align: center;
+    height: 100%;
+    display: inline-block;
+    padding: 0 22px ;
+    line-height: 52px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.header nav li{
+    float: left;
+}
+.header nav .login_pic{
+    background: url("../images/person.png") no-repeat 4px 16px;
+}
+.li_select a,nav a:hover{
+    color: #e74f4d;
+    border-bottom: 5px solid #e74f4d;
+}
+
+
+/*底部样式*/
+footer{
+    height: 416px;
+}
+footer .connection{
+    padding-top: 90px;
+    height: 266px;
+    background: #32363e;
+    color: #FFFFFF;
+    padding-left: 400px;
+}
+
+.connection .conn_us{
+    width: 512px;
+    height: 200px;
+}
+.connection .conn_us h3{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.connection .conn_us p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.conn_us input{
+    margin-top: 32px;
+}
+.conn_us input[type='text'] {
+    line-height: 40px;
+    font-size: 16px;
+    text-indent: 1em;
+    width: 430px;
+    height: 40px;
+}
+.conn_us input[type='submit'] {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #6f7178;
+}
+
+.conn_us ul{
+    margin-top:36px;
+    margin-left: 164px;
+}
+
+.conn_us ul li{
+    float: left;
+    margin-right: 26px;
+}
+
+footer .copyright{
+    padding-top: 16px;
+    line-height: 44px;
+    width: 100%;
+    height: 44px;
+    background: #303039;
+    color: #FFFFFF;
+}
+footer .copyright span:first-child{
+    float: left;
+    margin-left: 100px;
+}
+footer .copyright span:last-child{
+    cursor: pointer;
+    float: right;
+    margin-right: 40px;
+}
